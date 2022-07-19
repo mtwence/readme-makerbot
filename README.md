@@ -1,8 +1,8 @@
-# Gabagool
-
+# klklkl
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 ## Description
-I gotta get the gabagool
+cuckoold
 
 ## Table of Contents
 [Installation](#installation)
@@ -11,7 +11,7 @@ I gotta get the gabagool
 
 [Tests](#tests)
 
-[Contributing](#contributing)
+[Contributing](#cntributing)
 
 [Questions](#questions)
 
@@ -22,7 +22,7 @@ I gotta get the gabagool
 npm init
 
 ## Usage
-Gaba the Gool
+asdasd
 
 ## Tests
 npm run test
@@ -32,11 +32,10 @@ undefined
 
 ## Questions
 #### Contact me at: 
+Email: [mtwence@gmail.coj] 
 
-Email: [mtwence@gmail.com] 
-
-GitHub: [undefined](https://github.com/mtwence)
+GitHub: [mtwence](https://github.com/mtwence)
 
 ## License
-This repository is licensed by undefined 
+This repository is licensed by MIT 
 

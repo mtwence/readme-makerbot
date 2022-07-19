@@ -49,9 +49,9 @@ const questions = [
     },
     {
         type: "list",
-        name: "license",
+        name: "licenses",
         message: "Select a license from the list.",
-        choices: ["MIT", "BSD 3", "Apache 2.0",]
+        choices: ["MIT", "BSD-3-Clause", "Apache-2.0",]
     },
 
 ];
