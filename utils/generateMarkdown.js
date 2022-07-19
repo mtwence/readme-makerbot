@@ -47,7 +47,13 @@ ${data.usage}
 ${data.tests}
 
 ## Contributing
+${data.contributing}
 
+## Questions
+\n You can contact me at [${data.email}]
+
+## License
+${renderLicenseSection(data.license)}
 }
 
 
