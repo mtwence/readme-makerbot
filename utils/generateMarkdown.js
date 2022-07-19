@@ -33,14 +33,14 @@ ${data.description}
 
 ## Installation
 To install the required dependencies run the code below: \n
-${renderCode(data.installation)}
+${formatCode(data.installation)}
 
 ## Usage
 ${data.usage}
 
 ## Tests
 To run unit tests for this reposity run the code below: \n
-${renderCode(data.tests)}
+${formatCode(data.tests)}
 
 ## Contributing
 ${data.contributing}
