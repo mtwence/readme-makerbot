@@ -38,7 +38,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: "contributions",
+        name: "contributing",
         message: "Enter guidelines for contribting to this repository.",
     },
     {

@@ -27,7 +27,7 @@ ${data.description}
 [Installation](#installation)\n
 [Usage](#usage)\n
 [Tests](#tests)\n
-[Contributing](#cntributing)\n
+[Contributing](#contributing)\n
 [Questions](#questions)\n
 [License](#license)\n
 
