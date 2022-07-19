@@ -43,7 +43,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: "testing",
+        name: "tests",
         message: "Enter instructions for running test scripts",
         default: "npm run test"
     },

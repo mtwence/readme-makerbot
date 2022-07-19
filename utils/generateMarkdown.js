@@ -30,7 +30,23 @@ ${renderLicenseBadge(data.licenses)}
 ${data.description}
 
 ## Table of Contents
+[Installation](#installation)\n
+[Usage](#usage)\n
+[Tests](#tests)\n
+[Contributing](#contributing)\n
+[Questions](#questions)\n
+[License](#license)\n
 
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## Tests
+${data.tests}
+
+## Contributing
 
 }
 
