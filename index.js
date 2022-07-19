@@ -8,12 +8,12 @@ const questions = [
     {
         type: 'input',
         name: "username",
-        message: "Enter your GitHub username",
+        message: "Enter your GitHub username.",
     },
     {
         type: 'input',
         name: "email",
-        message: "Enter your professional email address"
+        message: "Enter your professional email address."
     },
     {
         type: 'input',
@@ -23,12 +23,12 @@ const questions = [
     {
         type: 'input',
         name: "description",
-        message: "Enter a brief deescription of your project",
+        message: "Enter a brief deescription of your project.",
     },
     {
         type: 'input',
         name: "installation",
-        message: "Enter installation instructions for your project",
+        message: "Enter installation instructions for your project.",
         default: "npm init",
     },
     {
@@ -39,7 +39,7 @@ const questions = [
     {
         type: 'input',
         name: "contributions",
-        message: "Enter guidelines for contribting to this repository",
+        message: "Enter guidelines for contribting to this repository.",
     },
     {
         type: 'input',
@@ -50,7 +50,7 @@ const questions = [
     {
         type: "list",
         name: "license",
-        message: "Select a license from the list",
+        message: "Select a license from the list.",
         choices: ["MIT", "BSD 3", "Apache 2.0",]
     },
 
