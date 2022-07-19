@@ -3,11 +3,11 @@
 function renderLicenseBadge(licenses) {
   switch(licenses) {
     case "MIT":
-      return `[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+      return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
     case "APACHE 2.0":
-      return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+      return `[![License: Apache2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://choosealicense.com/licenses/mit/)`;
     case "BSD 3":
-      return `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
+      return `[![License: BSD3](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
     default:
       return "";
   }  
@@ -50,10 +50,10 @@ ${data.contributing}
 ## Questions
 #### Contact me at: \n
 Email: [${data.email}] \n
-GitHub: [${data.github}](https://github.com/${data.username})
+GitHub: [${data.username}](https://github.com/${data.username})
 
 ## License
-${renderLicenseSection(data.license)}
+${renderLicenseSection(data.licenses)}
 `;
 }
 
