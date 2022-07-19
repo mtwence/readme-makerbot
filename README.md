@@ -1,35 +1,33 @@
-# "Title"
+# ReadMe Makerbot
 
 ## Table of Contents
 
 - [Description](#description)
-- [Technologies](#technologies)
-- [Deployed Link](#link)
+- [Technologies Used](#technologies-used)
 - [Usage](#usage)
-- [User Information](#userinformation)
+- [User Information](#user-information)
 - [Credits](#credits)
 - [License](#license)
 
 ## Description
-
+A command line based interface using Node that allows you to create a professional ReadMe file based on users' answers to a series of prompts. 
 
 ## Technologies Used
 
-- HTML
-- CSS
-- Bootstrap
 - Javascript
-- jQuery
-
-## Website Demo
-
-[Video Walkthrough](https://drive.google.com/file/d/1Q5NWkKlgh-NzGo59QxAKml9gfZ2vfeS3/view)
+- Node.js
+- Inquirer.js
 
 ## Usage
 
 ### Website Demo
+[Video Walkthrough](https://drive.google.com/file/d/1Q5NWkKlgh-NzGo59QxAKml9gfZ2vfeS3/view)
 
-![alt text]()
+### Prompts & Answers
+![Prompts](./assets/images/node_prompts.png)
+
+### Result
+[Sample ReadMe](./assets/sample_README.md)
 
 ### Code Snippets
 An array of objects that represent a question prompt.
@@ -86,7 +84,7 @@ const questions = [
 
 ];
 ```
-Functions that actually create the README file itself & one that initiates the application to create one. 
+Functions that actually create the README file itself & one that initiates the application to create one, respectively 
 ```ruby
 function writeToFile(fileName, data) {
     fs.writeFile(`${fileName}_README.md`, data, (err) => {
