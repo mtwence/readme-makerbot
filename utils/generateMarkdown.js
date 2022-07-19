@@ -50,10 +50,13 @@ ${data.tests}
 ${data.contributing}
 
 ## Questions
-\n You can contact me at [${data.email}]
+#### Contact me at: \n
+Email: [${data.email}] \n
+GitHub: [${data.github}](https://github.com/${data.username})
 
 ## License
 ${renderLicenseSection(data.license)}
+`;
 }
 
 
